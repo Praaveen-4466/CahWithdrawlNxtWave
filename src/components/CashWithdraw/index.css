@@ -1,0 +1,75 @@
+/* Write your CSS here */
+.main-container {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-container {
+  min-height: 300px;
+  width: 400px;
+  background-color: #150b3e;
+  border-radius: 10px;
+  padding: 20px;
+}
+.sarah-name-container {
+  display: flex;
+  align-items: center;
+}
+.s-styling {
+  background-color: #c7d2fe;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sarah-name {
+  color: #c4c4c4;
+  font-family: Roboto;
+  font-size: 26px;
+  margin-left: 20px;
+  font-weight: 600;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.balance-heading {
+  color: #382f5a;
+  font-size: 20px;
+  font-family: Roboto;
+}
+.rs-in-digits {
+  color: #c7d2fe;
+  font-family: Roboto;
+  line-height: 80%;
+}
+.rs-in-words {
+  color: #382f5a;
+  font-family: Roboto;
+  line-height: 80%;
+  font-weight: 600;
+}
+.balance-heading-2 {
+  color: #382f5a;
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 600;
+}
+.button {
+  padding: 10px;
+  width: 40%;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #c7d2fe;
+  cursor: pointer;
+  color: #382f5a;
+  font-weight: 600;
+  font-size: 15px;
+  outline: white;
+  outline-width: 2px;
+}
